@@ -6,8 +6,14 @@
 
 
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
-var pariOdispari= prompt("Scegli Pari o Dispari: ");
-var numeroutente= parseInt(prompt("Numero tra 1 e 5: "));
+//do {
+  var pariOdispari= prompt("Scegli Pari o Dispari: ");
+//} while ((pariOdispari !="Pari") || (pariOdispari !="pari") || (pariOdispari !="Dispari") || (pariOdispari !="dispari"))
+
+do {
+  var numeroutente= parseInt(prompt("Scegli un numero tra 1 e 5: "));
+} while (numeroutente < 1 || numeroutente > 5)
+
 // Sommiamo i due numeri.
 var numeropc=numerorandom();
 var somma = numeroutente + numeropc;
