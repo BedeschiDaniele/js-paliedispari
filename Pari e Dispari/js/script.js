@@ -13,9 +13,9 @@ var numeropc=numerorandom();
 var somma = numeroutente + numeropc;
 // Dichiariamo chi ha vinto.
 var risultato = paridisp(somma);
-if (pariOdispari=="pari" && risultato=="Pari") {
+if (pariOdispari=="pari" || pariOdispari=="Pari" && risultato=="Pari") {
   console.log("Vince l utente");
-} else if (pariOdispari=="dispari" && risultato=="dispari") {
+} else if (pariOdispari=="dispari" || pariOdispari=="Dispari" && risultato=="dispari") {
   console.log("Vince l utente");
 } else {
   console.log("Vince il pc");
