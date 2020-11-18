@@ -1,0 +1,31 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/b2/14/14/b214140d98c6b0a607555e10d75f7db9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container {
+  width: 77%;
+  height: 471px;
+  margin: auto;
+  text-align: center;
+  margin-top: 110px;
+  background: rgba(0, 0, 0, 0.5);
+}
+#insert {
+  font-size: 60px;
+  color: yellow;
+
+}
+#text , #risultato {
+  width: 30%;
+  height: 5%;
+  margin-bottom: 20px;
+}
+#risultato {
+  margin-top: 20px;
+}
+#verifica {
+  display: block;
+  margin: auto;
+}
